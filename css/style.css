@@ -103,6 +103,25 @@ a{color:#c9c9c9;}
   padding:8px;
   justify-content:left;
   overflow-x:scroll;
+  overflow-y:hidden;
+}
+#reviews{position:relative;}
+#reviews::before,#reviews::after{
+  content:'';
+  display:block;
+  position:absolute;
+  top:52px;
+  width:10px;
+  height:216px;
+  z-index:1;
+}
+#reviews::before{
+  left:16px;
+  background:linear-gradient(90deg,var(--blue),#0000);
+}
+#reviews::after{
+  right:16px;
+  background:linear-gradient(90deg,#0000,var(--blue));
 }
 
 .menu{text-align:left;}
@@ -114,6 +133,7 @@ a{color:#c9c9c9;}
   margin-right:12px;
   flex-direction:column;
 }
+.review-container:nth-of-type(1){margin-left:12px;}
 .review-container .review-header{
   display:flex;
   justify-content:space-between;
