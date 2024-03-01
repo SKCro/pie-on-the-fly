@@ -105,6 +105,8 @@ a{color:#c9c9c9;}
   overflow-x:scroll;
 }
 
+.menu{text-align:left;}
+
 .review-container{
   display:flex;
   height:192px;
@@ -116,6 +118,7 @@ a{color:#c9c9c9;}
   display:flex;
   justify-content:space-between;
 }
+.review-container p{text-align:left;}
 .review-header img{
   width:52px;
   height:52px;
@@ -123,7 +126,7 @@ a{color:#c9c9c9;}
   filter:drop-shadow(0 2px 2px #0008);
 }
 .review-header h3{
-  width:75%;
+  width:85%;
   min-height:44px;
   margin:auto 8px;
   text-align:left;
