@@ -10,6 +10,7 @@ html{
 body{
   background:var(--purple);
   margin:80px 0 0 0;
+  font-size:14px;
   font-family:Tahoma,Helvetica Neue,Helvetica,Segoe UI,sans-serif;
   color:#f0f0f0;
 }
@@ -68,8 +69,8 @@ body{
 
 main{text-align:center;overflow-wrap:break-word;}
 
-h1,h3{
-  margin:0;
+h1,h2,h3{
+  margin:0 0 0.1rem 0;
   text-shadow:0 2px 2px #0008;
 }
 
